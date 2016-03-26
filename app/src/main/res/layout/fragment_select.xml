@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_imgbutton_select_picture"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_switch_off_text"
+        android:id="@+id/select_switch_camera_gallery"
+        android:layout_above="@+id/select_imgbutton_select_picture"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_button_filterize"
+        android:id="@+id/select_button_filterize"
+        android:layout_below="@+id/select_imgbutton_select_picture"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
