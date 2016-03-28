@@ -123,4 +123,29 @@ public class SelectFragment extends Fragment {
             selectImage.setTag("fromCamera");
         }
     }
+/*
+    private class PictureRetriever extends AsyncTask<Intent, Void, Bitmap> {
+        private final WeakReference<ImageView> imageViewWeakReference;
+        private int requestCode;
+        private final int data = 0;
+        public PictureRetriever(ImageView imageView, int requestCode) {
+            imageViewWeakReference = new WeakReference<ImageView>(imageView);
+            this.requestCode = requestCode;
+        }
+
+        @Override
+        protected Bitmap doInBackground(Intent... params) {
+            switch (requestCode) {
+                case REQUEST_IMAGE_CAPTURE:
+
+                    break;
+
+                case REQUEST_IMAGE_GALLERY:
+
+                    break;
+            }
+            return null;
+        }
+    }
+*/
 }
